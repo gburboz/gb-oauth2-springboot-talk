@@ -1,0 +1,9 @@
+spring:
+  application.name: GB OAuth Demo
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.security: DEBUG
+    com.glad.oauth: DEBUG
+  pattern.console: "%d{HH:mm:ss} %-5level %logger{36} : %msg%n"
