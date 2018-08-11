@@ -1,0 +1,21 @@
+spring:
+  application.name: GB OAuth Demo
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.security: DEBUG
+    com.glad.oauth: DEBUG
+  pattern.console: "%d{HH:mm:ss} %-5level %logger{36} : %msg%n"
+
+
+spring.security.oauth2.client:
+  registration:
+    # Predefined Google, GitHub, Facebook, and Okta
+    facebook:
+      # ex: https://github.com/eugenp/tutorials/blob/master/spring-social-login/src/main/resources/application.properties
+      client-id: your-facebook-client-id-here
+      client-secret: your-facebook-client-secret-here
+    github:
+      client-id: your-github-client-id-here
+      client-secret: your-github-client-secret-here
