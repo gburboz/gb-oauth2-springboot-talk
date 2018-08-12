@@ -1,0 +1,9 @@
+spring.security.oauth2.client:
+  registration:
+    facebook:
+      # credit: https://github.com/eugenp/tutorials/blob/master/spring-social-login/src/main/resources/application.properties
+      client-id: 1715784745414888
+      client-secret: abefd6497e9cc01ad03be28509617bf0
+    github:
+      client-id: 4255e36c1b1b74dfcb44
+      client-secret: 5728d4accbfcb21cff635ec2c024c4007623aaf3
