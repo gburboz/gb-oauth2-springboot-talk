@@ -47,3 +47,6 @@ bin/
 .classpath
 .project
 .settings/
+
+# Config with client secret
+application-hide.yml
