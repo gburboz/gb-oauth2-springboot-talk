@@ -3,8 +3,6 @@
 This project has none of the OAuth code/component, it just sets up
 initial Spring Security.
 
-![File List](src/main/docs/images/file-list.png)
-
 Most of the code here is self explanatory and has been annotated with additional
 comments where necessary. If you want to explore further, I'd recommend you to take a look at
 [Spring Security Architecture](https://spring.io/guides/topicals/spring-security-architecture/)

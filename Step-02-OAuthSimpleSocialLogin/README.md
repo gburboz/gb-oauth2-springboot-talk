@@ -7,8 +7,6 @@ security OAuth code and components. Please see section
 from [Spring Security Reference](https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/)
 for more detials.
 
-![File List](src/main/docs/images/file-list.png)
-
 
 ### When you run
 Once you run the project (`GbOauthDemoApp`), since spring security

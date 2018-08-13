@@ -1,38 +1,34 @@
-## Step-02-OAuthSimpleSocialLogin
+## Step-03-OAuthCustomProvider
 
-This project builds on top of `Step-01-InitialSpringSecurityApp`
-to add simple social login to Facebook and GitHub using spring
-security OAuth code and components. Please see section
-[5.7. OAuth 2.0 Login](https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#jc-oauth2login)
-from [Spring Security Reference](https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/)
-for more detials.
-
-![File List](src/main/docs/images/file-list.png)
+In earlier demo of
+[Step-02-OAuthSimpleSocialLogin](../Step-02-OAuthSimpleSocialLogin), we saw
+example of pre-configured OAuth providers Facebook and GitHub.
+Now we extend that example to update
+[application.yml](src/main/resources/application.yml)
+with custom OAuth provider.
 
 
-### When you run
-Once you run the project (`GbOauthDemoApp`), since spring security
-OAuth is included and configured, when you access protected
-path `/home`, instead of form login, default spring security
-OAuth page is displayed which allows you to choose one of the
-registered OAuth client in the application.
+### When we run
+Once we run the project (
+`Step-03-OAuthCustomProvider > GbOauthDemoApp`),
+we get an additional OAuth `Custom Provider Okta`
+on login page.
 
 
 #### Client Registration Details
-You will need Facebook and GitHub developer account where by
-you need to register an OAuth client and get your own
-`client-id` and `client-secret` .
-* Facebook developer account -
-    [App Development](https://developers.facebook.com/docs/apps/)
-* GitHub developer account -
-    [OAuth Apps](https://github.com/settings/developers)
+You will need [Okta developer account](https://developer.okta.com/signup/)
+and you will be assigned a custom Okta domain-name
+(e.g `dev-142331.oktapreview.com`).
+You will then need to login as admin and register an OAuth
+client application on **Applications** tab to get your own
+`client-id` and `client-secret`.
 
 
-### Changes on top of `Step-01-InitialSpringSecurityApp`
-Following changes have been made on top
-of `Step-01-InitialSpringSecurityApp`
-* Added following two dependencies
-  * spring-security-oauth2-client
-  * spring-security-oauth2-jose (required for JWT tokens)
-* In `WebSecurity` we have replaced `formLogin()` with `oauthLogin()`.
-* Added OAuth client registration config to `application.yml`
+#### Client Provider Details
+To configure client provider, we need to know endpoints
+exposed by the provider. Please review detailed
+information about
+[endpoints that Okta exposes](https://developer.okta.com/docs/api/resources/oidc)
+
+You can also add more users on your Okta developer account
+who can then login to your application.
