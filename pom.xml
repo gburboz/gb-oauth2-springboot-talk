@@ -12,7 +12,8 @@
     <modules>
         <module>Step-01-InitialSpringSecurityApp</module>
         <module>Step-02-OAuthSimpleSocialLogin</module>
-        <module>Step-03-OAuthCustomProviderLogin</module>
+        <module>Step-03-OpenIDConnectLogin</module>
+        <module>Step-04-CustomProviderLogin</module>
     </modules>
 
 </project>

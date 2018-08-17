@@ -1,4 +1,5 @@
 ## Step-02-OAuthSimpleSocialLogin
+[ [Previous](../Step-01-InitialSpringSecurityApp) | [Next](../Step-03-OpenIDConnectLogin) ]
 
 This project builds on top of `Step-01-InitialSpringSecurityApp`
 to add simple social login to Facebook and GitHub using spring
