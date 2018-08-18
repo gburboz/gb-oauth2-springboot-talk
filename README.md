@@ -23,7 +23,8 @@ or mobile applications to consume them.
 Most of such use cases are mostly enabled by
 technology called OAuth and Open ID Connect (OIDC).
 
-## Session Presentation
+
+## [Session Presentation](src/main/site/OAuthSocialLogin.pdf)
 
 * Presentation PDF `#`**[OAuth Social Login](src/main/site/OAuthSocialLogin.pdf)**
 
@@ -45,6 +46,7 @@ Replace respective `client-id` and `client-secret` before running the demo
 
 ### Each Demo file structure
 ![File List](src/main/site/images/file-list.png)
+
 
 ### Demo Prerequisite:
 * Java Web Development
