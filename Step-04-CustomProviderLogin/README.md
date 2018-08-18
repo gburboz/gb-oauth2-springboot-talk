@@ -1,5 +1,5 @@
 ## Step-04-OAuthCustomProviderLogin
-[ [Previous](../Step-03-OpenIDConnectLogin) | [Home](../../) ]
+[ [Previous](../Step-03-OpenIDConnectLogin) | [Home](../../../) ]
 
 In all the earlier demos we used pre-configured OAuth providers
 like Google, Facebook and GitHub. Now we extend our
