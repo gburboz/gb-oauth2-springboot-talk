@@ -26,12 +26,14 @@ you need to register an OAuth client and get your own
 * GitHub developer account -
     [OAuth Apps](https://github.com/settings/developers)
 
+    ![GitHub OAuth registration](../../../src/main/site/images/github-apps.png)
 
 ### Changes on top of `Step-01-InitialSpringSecurityApp`
 Following changes have been made on top
 of `Step-01-InitialSpringSecurityApp`
 * Added following two dependencies
   * spring-security-oauth2-client
-  * spring-security-oauth2-jose (required for JWT tokens)
 * In `WebSecurity` we have replaced `formLogin()` with `oauthLogin()`.
 * Added OAuth client registration config to `application.yml`
+
+
