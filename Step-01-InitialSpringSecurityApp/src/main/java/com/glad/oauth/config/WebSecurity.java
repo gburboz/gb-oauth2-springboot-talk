@@ -1,5 +1,5 @@
 // Uncomment to demo this config
-/*
+
 package com.glad.oauth.config;
 
 import org.springframework.context.annotation.Configuration;
@@ -37,4 +37,3 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
     }
 
 }
-*/

@@ -27,14 +27,6 @@ security `Authentication` as a JSON object containing details of
 underlying logged in user.
 
 
-### Customizing web security
-By default custom Security config is not enabled in this project
-as `WebSecurity` is commented out to demonstrate default spring
-security. Uncomment `WebSecurity` and run the project again.
-This time initial index page is displayed without authentication,
-and logout link is functional.
-
-
 #### Logout
 Spring security logout by default is POST method to prevent
 against CSRF attack. Only for demo purpose we have simplified
