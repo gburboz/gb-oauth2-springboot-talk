@@ -26,7 +26,7 @@ you need to register an OAuth client and get your own
 * GitHub developer account -
     [OAuth Apps](https://github.com/settings/developers)
 
-    ![GitHub OAuth registration](../../../src/main/site/images/github-apps.png)
+    ![GitHub OAuth registration](../../../master/src/main/site/images/github-apps.png)
 
 ### Changes on top of `Step-01-InitialSpringSecurityApp`
 Following changes have been made on top
