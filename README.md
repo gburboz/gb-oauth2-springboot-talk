@@ -43,6 +43,8 @@ Replace respective `client-id` and `client-secret` before running the demo
 
 * [Step-04-CustomProviderLogin](Step-04-CustomProviderLogin)
 
+## Code Demo Disclaimer
+Many of protocol and claim verification may be done by spring security framework but further due deligence is required to ensure all necessary verifications are done.
 
 ### Each Demo file structure
 ![File List](src/main/site/images/file-list.png)
