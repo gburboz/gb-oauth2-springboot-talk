@@ -18,6 +18,9 @@ registered OAuth client in the application.
 
 
 #### Client Registration Details
+Most configuration details for common OAuth providers are defined
+by spring in class `CommonOAuth2Provider`.
+
 You will need Facebook and GitHub developer account where by
 you need to register an OAuth client and get your own
 `client-id` and `client-secret` .
