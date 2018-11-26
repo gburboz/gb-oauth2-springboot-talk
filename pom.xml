@@ -14,6 +14,7 @@
         <module>Step-02-OAuthSimpleSocialLogin</module>
         <module>Step-03-OpenIDConnectLogin</module>
         <module>Step-04-CustomProviderLogin</module>
+        <module>Step-05-CustomGoogleSkipUserInfo</module>
     </modules>
 
 </project>

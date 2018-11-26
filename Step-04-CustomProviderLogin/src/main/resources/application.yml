@@ -23,16 +23,6 @@ spring.security.oauth2.client:
       client-id: your-google-client-id-here
       client-secret: your-google-client-secret-here
     #your-provider-id:
-    linkedin:
-      client-name: Custom Provider LinkedIn
-      client-id: your-linkedin-client-id-here
-      client-secret: your-linkedin-client-secret-here
-      authorization-grant-type: authorization_code
-      client-authentication-method: post
-      redirect-uri-template: "{baseUrl}/login/oauth2/code/{registrationId}"
-      #scope: r_fullprofile
-      scope: r_basicprofile r_emailaddress
-    #your-provider-id:
     gbokta:
       client-name: Custom Provider Okta
       client-id: your-okta-client-id-here
@@ -40,14 +30,8 @@ spring.security.oauth2.client:
       authorization-grant-type: authorization_code
       client-authentication-method: post
       redirect-uri-template: "{baseUrl}/login/oauth2/code/{registrationId}"
-      scope: openid profile
+      scope: openid, profile
   provider:
-    #your-provider-id:
-    linkedin:
-      authorization-uri: https://www.linkedin.com/oauth/v2/authorization
-      token-uri: https://www.linkedin.com/oauth/v2/accessToken
-      user-info-uri: https://www.linkedin.com/v1/people/~
-      user-name-attribute: id
     #your-provider-id:
     gbokta:
       authorization-uri: https://your-okta-domain.oktapreview.com/oauth2/v1/authorize
